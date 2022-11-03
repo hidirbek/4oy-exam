@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  background: rgb(204, 204, 204);
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+header{
+  padding: 20px 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  padding: 0 5%;
+  margin-bottom: 50px;
+}
+
+.nav-list{
+  display: flex;
+}
+
+
+
+.post-wrapper{
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.post-title{
+  font-family: Calibri;
+  font-size: 25px;
+  font-weight: 900;
+}
+.post-txt{
+  font-weight: 600;
+  font-family: 'Courier New';
+  font-size: 20px;
+}
+
+.comment{
+  font-family: Calibri;
+  font-size: 18px;
+}
+.comment-author{
+  text-transform: uppercase;
+  color: rgb(142, 141, 141);
+}
+.btn{
+  background-color: dodgerblue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #fff;
+}
+.btn:hover{
+  background-color: rgb(8, 112, 216);
+  transition: 0.5s;
+}
+.btn+.btn{
+  margin-left: 20px;
+}
+.btn-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ip-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-wrapper{
+  display: flex;
+  font-size: 20px;
+}
+.fa-solid{
+  cursor: pointer;
+}
+.fa-pen{
+  margin: 0 20px;
+}
+
+.modal-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 20px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 50px;
+}
+.modal-title{
+  color: #fff;
+  font-size: 32px;
+}
+.edit-title, .edit-post{
+  padding: 5px 10px;
+  outline: 0;
+  width: 60%;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid rgb(80, 79, 79);
+}
+.edit-post{
+  height: 300px;
+}
+.submit-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: dodgerblue;
+  font-size: 18px;
+  color: #ffd;
+}
+.fa-xmark{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  right: 350px;
+}
+
+.hidden{
+  display: none;
+}
+.show{
+  display: block;
+}

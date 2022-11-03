@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h1 class="site-logo">logo</h1>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <!-- <select id="tags"></select> -->
+            </li>
+            <li class="nav-item register-btn">
+              <a href="index.html">Posts</a>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="modal-body hidden">
+        <form class="modal-form">
+          <i class="fa-solid fa-xmark"></i>
+          <h2 class="modal-title">Edit your post</h2>
+          <input class="edit-title" type="text" placeholder="Edit Title" />
+          <textarea
+            cols="200"
+            rows="20"
+            class="edit-post"
+            placeholder="Edit post"
+          ></textarea>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+      <div class="container">
+        <div class="edit-page-wrapper">
+          <!-- <div class="post-wrapper ip-wrapper">
+            <div class="p-wrapper">
+              <h2 class="post-title">Lorem, ipsum dolor.</h2>
+              <p class="post-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit, nobis.
+              </p>
+            </div>
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-trash delete"></i>
+              <i class="fa-solid fa-pen edit"></i>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <script src="../js/edit.js"></script>
+    </main>
+  </body>
+</html>
